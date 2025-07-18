@@ -64,10 +64,9 @@ http://localhost:8080
 
 ```
 ├── docker-compose.yml      # Конфигурация Docker
-├── db
-│   └── migrations          # SQL-скрипты для инициализации БД
-│   
-├── web
+├── migrations         # SQL-скрипты для инициализации БД
+├── docker         # конфиг
+├── src
 │   ├── index.php           # Главная страница поиска
 │   └── load_data.php       # Скрипт загрузки тестовых данных
 │   
